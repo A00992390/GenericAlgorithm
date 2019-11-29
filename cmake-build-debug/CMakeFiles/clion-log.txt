@@ -1,0 +1,4 @@
+C:\Users\msi\.CLion2019.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=C:/cygwin64/bin/g++.exe -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug
