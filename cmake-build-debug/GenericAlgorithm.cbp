@@ -80,6 +80,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/City.cpp">
+			<Option target="GenericAlgorithm"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/City.hpp">
+			<Option target="GenericAlgorithm"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/Tour.cpp">
+			<Option target="GenericAlgorithm"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/Tour.hpp">
+			<Option target="GenericAlgorithm"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/genetic_op.cpp">
+			<Option target="GenericAlgorithm"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/genetic_op.hpp">
+			<Option target="GenericAlgorithm"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/main.cpp">
 			<Option target="GenericAlgorithm"/>
 		</Unit>

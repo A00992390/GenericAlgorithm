@@ -123,6 +123,87 @@ GenericAlgorithm/fast:
 	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/build
 .PHONY : GenericAlgorithm/fast
 
+City.o: City.cpp.o
+
+.PHONY : City.o
+
+# target to build an object file
+City.cpp.o:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/City.cpp.o
+.PHONY : City.cpp.o
+
+City.i: City.cpp.i
+
+.PHONY : City.i
+
+# target to preprocess a source file
+City.cpp.i:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/City.cpp.i
+.PHONY : City.cpp.i
+
+City.s: City.cpp.s
+
+.PHONY : City.s
+
+# target to generate assembly for a file
+City.cpp.s:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/City.cpp.s
+.PHONY : City.cpp.s
+
+Tour.o: Tour.cpp.o
+
+.PHONY : Tour.o
+
+# target to build an object file
+Tour.cpp.o:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o
+.PHONY : Tour.cpp.o
+
+Tour.i: Tour.cpp.i
+
+.PHONY : Tour.i
+
+# target to preprocess a source file
+Tour.cpp.i:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/Tour.cpp.i
+.PHONY : Tour.cpp.i
+
+Tour.s: Tour.cpp.s
+
+.PHONY : Tour.s
+
+# target to generate assembly for a file
+Tour.cpp.s:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/Tour.cpp.s
+.PHONY : Tour.cpp.s
+
+genetic_op.o: genetic_op.cpp.o
+
+.PHONY : genetic_op.o
+
+# target to build an object file
+genetic_op.cpp.o:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o
+.PHONY : genetic_op.cpp.o
+
+genetic_op.i: genetic_op.cpp.i
+
+.PHONY : genetic_op.i
+
+# target to preprocess a source file
+genetic_op.cpp.i:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.i
+.PHONY : genetic_op.cpp.i
+
+genetic_op.s: genetic_op.cpp.s
+
+.PHONY : genetic_op.s
+
+# target to generate assembly for a file
+genetic_op.cpp.s:
+	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.s
+.PHONY : genetic_op.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GenericAlgorithm"
 	@echo "... edit_cache"
+	@echo "... City.o"
+	@echo "... City.i"
+	@echo "... City.s"
+	@echo "... Tour.o"
+	@echo "... Tour.i"
+	@echo "... Tour.s"
+	@echo "... genetic_op.o"
+	@echo "... genetic_op.i"
+	@echo "... genetic_op.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

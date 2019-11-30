@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/GenericAlgorithm.dir/all:
 	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/depend
 	$(MAKE) -f CMakeFiles/GenericAlgorithm.dir/build.make CMakeFiles/GenericAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target GenericAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target GenericAlgorithm"
 .PHONY : CMakeFiles/GenericAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GenericAlgorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GenericAlgorithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/GenericAlgorithm.dir/rule

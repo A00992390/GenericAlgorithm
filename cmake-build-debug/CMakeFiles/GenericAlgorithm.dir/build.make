@@ -70,17 +70,62 @@ CMakeFiles/GenericAlgorithm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GenericAlgorithm.dir/main.cpp.s"
 	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/main.cpp" -o CMakeFiles/GenericAlgorithm.dir/main.cpp.s
 
+CMakeFiles/GenericAlgorithm.dir/City.cpp.o: CMakeFiles/GenericAlgorithm.dir/flags.make
+CMakeFiles/GenericAlgorithm.dir/City.cpp.o: ../City.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GenericAlgorithm.dir/City.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericAlgorithm.dir/City.cpp.o -c "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/City.cpp"
+
+CMakeFiles/GenericAlgorithm.dir/City.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GenericAlgorithm.dir/City.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/City.cpp" > CMakeFiles/GenericAlgorithm.dir/City.cpp.i
+
+CMakeFiles/GenericAlgorithm.dir/City.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GenericAlgorithm.dir/City.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/City.cpp" -o CMakeFiles/GenericAlgorithm.dir/City.cpp.s
+
+CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o: CMakeFiles/GenericAlgorithm.dir/flags.make
+CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o: ../Tour.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o -c "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/Tour.cpp"
+
+CMakeFiles/GenericAlgorithm.dir/Tour.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GenericAlgorithm.dir/Tour.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/Tour.cpp" > CMakeFiles/GenericAlgorithm.dir/Tour.cpp.i
+
+CMakeFiles/GenericAlgorithm.dir/Tour.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GenericAlgorithm.dir/Tour.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/Tour.cpp" -o CMakeFiles/GenericAlgorithm.dir/Tour.cpp.s
+
+CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o: CMakeFiles/GenericAlgorithm.dir/flags.make
+CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o: ../genetic_op.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o -c "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/genetic_op.cpp"
+
+CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/genetic_op.cpp" > CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.i
+
+CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/genetic_op.cpp" -o CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.s
+
 # Object files for target GenericAlgorithm
 GenericAlgorithm_OBJECTS = \
-"CMakeFiles/GenericAlgorithm.dir/main.cpp.o"
+"CMakeFiles/GenericAlgorithm.dir/main.cpp.o" \
+"CMakeFiles/GenericAlgorithm.dir/City.cpp.o" \
+"CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o" \
+"CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o"
 
 # External object files for target GenericAlgorithm
 GenericAlgorithm_EXTERNAL_OBJECTS =
 
 GenericAlgorithm.exe: CMakeFiles/GenericAlgorithm.dir/main.cpp.o
+GenericAlgorithm.exe: CMakeFiles/GenericAlgorithm.dir/City.cpp.o
+GenericAlgorithm.exe: CMakeFiles/GenericAlgorithm.dir/Tour.cpp.o
+GenericAlgorithm.exe: CMakeFiles/GenericAlgorithm.dir/genetic_op.cpp.o
 GenericAlgorithm.exe: CMakeFiles/GenericAlgorithm.dir/build.make
 GenericAlgorithm.exe: CMakeFiles/GenericAlgorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GenericAlgorithm.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/msi/Desktop/Courses/Term03/Comp-3522_Object Oriented Programming 2/Codes/Assignment/Assignment02/GenericAlgorithm/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GenericAlgorithm.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GenericAlgorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
