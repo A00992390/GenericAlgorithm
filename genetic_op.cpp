@@ -11,7 +11,7 @@ void genetic_op::printTour(Tour& t){
     for (unsigned int i = 0; i <t.cities.size() ; ++i) {
         cout << t.cities[i].getName();
     }
-    cout << "\tfitness: " << t.getFitness()<<"\tdistance: " << get_tour_distance(t)<<endl;
+    cout << "\tfitness: " << t.getFitness() << "\tdistance: " << get_tour_distance(t) << endl;
 }
 
 /**
@@ -29,7 +29,7 @@ vector<Tour> genetic_op::populateTours(){
             // random y
             int y =  rand() % (MAP_BOUNDARY + 1);
             // name A,B,C,D ...
-            char name = (char) (j+65);
+            char name = (char)(j+65);
             // constructing city
             City city{name, x, y};
             // store city in tour
@@ -95,7 +95,7 @@ Tour genetic_op::crossover(Tour& t1, Tour& t2){
     // child tour
     Tour childTour;
 
-    int k= rand() % CITIES_IN_TOUR;
+    int k = rand() % CITIES_IN_TOUR;
 
     for (int i = 0; i < k ; ++i) {
         childTour.cities.push_back(t1.cities[i]);
@@ -135,7 +135,7 @@ vector<Tour> genetic_op::getCrosses(vector<Tour>& population){
         Tour parent2 = parentGroup2[0];
 
         // child tour
-        Tour childTour= crossover(parent1, parent2);
+        Tour childTour = crossover(parent1, parent2);
         // calculate fitness
         childTour.setFitness(determine_fitness(childTour));
         crosses.push_back(childTour);
@@ -181,13 +181,13 @@ void genetic_op::mutate(vector<Tour>&p){
             double rate=realDistribution(generator);
             if(rate <= MUTATION_RATE){
                 if(j == CITIES_IN_TOUR - 1){
-                    City temp=p[i].cities[j];
-                    p[i].cities[j]=p[i].cities[0];
-                    p[i].cities[0]=temp;
+                    City temp = p[i].cities[j];
+                    p[i].cities[j] = p[i].cities[0];
+                    p[i].cities[0] = temp;
                 }else{
-                    City temp=p[i].cities[j];
-                    p[i].cities[j]=p[i].cities[j+1];
-                    p[i].cities[j+1]=temp;
+                    City temp = p[i].cities[j];
+                    p[i].cities[j] = p[i].cities[j+1];
+                    p[i].cities[j+1] = temp;
                 }
             }
         }
@@ -209,8 +209,8 @@ void genetic_op::putEliteToFirst(vector<Tour> & t){
 
     if(best!= 0){
         Tour temp = t[0];
-        t[0]=t[best];
-        t[best]=temp;
+        t[0] = t[best];
+        t[best] = temp;
     }
 }
 
@@ -256,18 +256,18 @@ void genetic_op::perform(int n1, int n2){
 
         putEliteToFirst(population);
 
-        double itDistance= scalar / population[0].getFitness();
+        double itDistance = scalar / population[0].getFitness();
 
-        cout<<"----------------------------------------"<<endl;
-        cout<<"Iteration number: "<<i<<endl;
-        cout<<"Distance: "<<itDistance<<endl;
+        cout << "----------------------------------------" << endl;
+        cout << "Iteration number: "<<i<<endl;
+        cout << "Distance: "<<itDistance<<endl;
         if(itDistance<bestDistance){
             bestDistance=itDistance;
             bestTour=population[0];
         }
-        cout<<"Best distance:  "<<bestDistance<<endl;
+        cout<<"Best distance:  " << bestDistance<<endl;
 
-        cout<<"Improvement Over Base:  "<<(baseDistance-bestDistance)/baseDistance<<endl;
+        cout<<"Improvement Over Base:  "<< (baseDistance-bestDistance) / baseDistance<<endl;
 
         if((baseDistance-bestDistance) / baseDistance > improvement_factor){
             isAchieved = true;
@@ -275,10 +275,8 @@ void genetic_op::perform(int n1, int n2){
             break;
         }
     }
-    cout<<"----------------------------------------"<<endl;
-    cout <<"Number of iterations "<< i+1<<endl;
-    cout<<"Base Distance: "<<baseDistance<<endl;
-    cout<<"Best Distance: "<<bestDistance<<endl;
+    cout << "----------------------------------------\n" << "Number of iterations " << i+1 << endl
+        << "Base Distance: " << baseDistance << endl << "Best Distance: " << bestDistance << endl;
 
     if(isAchieved){
         cout<<"Improvement Achieved"<<endl;
