@@ -28,10 +28,10 @@ private:
     const double MUTATION_RATE = 0.15;
     // num of ELITES
     const int NUMBER_OF_ELITES = 1;
+    // scalar
+    const double scalar = 10000.0;
     // percentage that indicates what percent the new elite fitness needs to improve
     const double improvement_factor = 0.15;
-    //by scalar
-    const double scalar = 10000.0;
 private:
     /**
      * shuffle cities in tour
